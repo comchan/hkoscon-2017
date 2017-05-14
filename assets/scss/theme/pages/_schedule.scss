@@ -8,4 +8,19 @@
       font-size: 20pt;
     }
   }
+  .timetable {
+    min-height: 60px;
+    .day-cell
+    {
+      background-color: yellow;
+    }
+    .time-cell
+    {
+      background-color: orange;
+    }
+    .session-cell
+    {
+      background: gray;
+    }
+  }
 }
